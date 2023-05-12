@@ -1,5 +1,3 @@
-const WEBGL2 = "webgl2";
-
 p5.RendererGL.prototype._initContext = function() {
     this.drawingContext = this.canvas.getContext('webgl2', this._pInst._glAttributes);
     if (this.drawingContext == null)
