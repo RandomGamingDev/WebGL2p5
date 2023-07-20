@@ -1,5 +1,5 @@
 # WebGL2p5
-A simple library that replaces the classic WebGL 1 of p5.js with WebGL2
+A simple library that replaces the classic WebGL 1 of p5.js (only required if you're using a version older than 1.7.0) with WebGL2
 
 Simply include it after including the p5.js library and it'll replace the WebGL 1 initialization code with WebGL 2 initialization code allowing you to use WebGL 2 features while p5.js can continue to use WebGL features due to how similar the WebGL 1 & WebGL 2 APIs are.
 
